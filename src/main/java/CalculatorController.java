@@ -1,6 +1,14 @@
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/** Controller coordinates between the View and Model.
+ * It does:
+ * 1) Takes request (parameters) from View (that Client send).
+ * 2) Send request (parameters) to Model (Business logic).
+ * 3) Takes results of Model.
+ * 4) Refresh view with results of p.3.
+ * */
+
 public class CalculatorController {
     private CalculatorView theView;
     private CalculatorModel theModel;

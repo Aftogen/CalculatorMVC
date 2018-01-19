@@ -1,6 +1,12 @@
 import javax.swing.*;
 import java.awt.event.ActionListener;
 
+/**View is the separated Interface of the program.
+ * View does 2 things:
+ * 1) Display menu for client.
+ * 2) Take income request from client.
+ */
+
 public class CalculatorView extends JFrame {
     private JTextField firstNumber = new JTextField(10);
     private JLabel additionLable = new JLabel("+");
